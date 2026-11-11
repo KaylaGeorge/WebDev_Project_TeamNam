@@ -1,6 +1,7 @@
+
 p {
 text-align: center;
-font-family: Lucida Console;
+font-family: Arial, sans-serif;
 font-size: 20px;
 background-color: rgb(252, 242, 250);
 border: 10px solid #f7e6f4;
@@ -35,6 +36,7 @@ transition: 0.3s;
 
 body {
   background-color: #fad9f3; 
+  color: #222222;
   margin: 0;  
   padding: 20px;
   display: flex;
@@ -42,22 +44,28 @@ body {
   align-items: center; 
   min-height: 100vh;    
   background-image:  linear-gradient(to bottom, #fad9f3 0%, rgba(250, 217, 243, 0) 40%), url("847661961159197337.jpg");  
-  background-position: center;        
+  background-position: center;  
+  font-family: Arial, sans-serif;      
 }
 
 h2 {
-   display: flex;
-  justify-content: center; 
-  align-items: center;
-  gap: 20px;
-  border-radius: 5px;
+    text-align: center;
+    color: #2f3542;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 footer {
   background-color: #c1f5f0;
+  color: #222222;
   padding: 6px;
   text-align: center;
-  color: rgb(243, 214, 243);
 }
 
 .image-container {
@@ -80,14 +88,6 @@ footer {
     gap: 20px; 
 }
 
-h2 {
-    color: #2f3542;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border-left: 4px solid #f0c8e2;
-    padding-left: 10px;
-}
-
 nav {
     display: flex;
     gap: 10px;
@@ -95,3 +95,4 @@ nav {
     background: rgba(255,255,255,0.4);
     border-radius: 15px;
 }
+
